@@ -1,0 +1,104 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+body{
+    
+    background-image: url(340779.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#container{
+    
+    margin: auto;
+    padding: 10px ;
+    height: 60vh;
+    width: 25%;
+    background-color: rgba(64,64,64,0.8); 
+    border-radius: 10px;    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.input-container{
+    text-align: center;
+    margin-top: 10px;
+
+}
+#todo-input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#add-task-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text */
+    border: 2px solid white; /* White border for visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#add-task-button:hover {
+    background-color: white;
+    color: black;
+}
+#task-list {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+    border-radius: 10px;
+    text-align: center;
+}
+
+#task-list h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
